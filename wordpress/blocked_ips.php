@@ -1,8 +1,8 @@
 <?php
 /**
  * Bot Detector Blacklist for WordPress
- * Generated: 2026-01-07T18:04:59.259143Z
- * Total IPs: 14064
+ * Generated: 2026-01-07T18:10:45.884008Z
+ * Total IPs: 14065
  *
  * Usage: Add to your theme's functions.php or create a custom plugin
  * require_once('/path/to/blocked_ips.php');
@@ -108,7 +108,6 @@ $bot_detector_blacklist = array(
     '108.130.44.242' => 'Hosting/Cloud Bot',
     '13.212.114.38' => 'Vulnerability Scanner',
     '34.245.13.47' => 'Hosting/Cloud Bot',
-    '34.34.121.61' => 'Hosting/Cloud Bot',
     '178.62.241.4' => 'Hosting/Cloud Bot',
     '3.128.33.123' => 'Hosting/Cloud Bot',
     '34.253.83.55' => 'Hosting/Cloud Bot',
@@ -13733,6 +13732,7 @@ $bot_detector_blacklist = array(
     '95.217.144.239' => 'Known Bot (SEO)',
     '40.68.189.181' => 'Hosting/Cloud Bot',
     '135.181.112.221' => 'Known Bot (SEO)',
+    '144.76.90.206' => 'Hosting/Cloud Bot',
     '34.232.137.97' => 'Hosting/Cloud Bot',
     '34.147.51.183' => 'Hosting/Cloud Bot',
     '195.26.224.235' => 'Proxy/VPN Abuse',
@@ -13757,6 +13757,7 @@ $bot_detector_blacklist = array(
     '66.249.64.41' => 'Generic Bot',
     '31.13.127.9' => 'Generic Bot',
     '34.12.48.189' => 'Hosting/Cloud Bot',
+    '207.46.13.54' => 'Hosting/Cloud Bot',
     '34.90.115.108' => 'Hosting/Cloud Bot',
     '66.249.64.129' => 'Generic Bot',
     '66.249.64.132' => 'Generic Bot',
@@ -13780,6 +13781,7 @@ $bot_detector_blacklist = array(
     '192.178.6.73' => 'Hosting/Cloud Bot',
     '91.193.5.182' => 'Proxy/VPN Abuse',
     '188.245.171.10' => 'Hosting/Cloud Bot',
+    '207.46.13.78' => 'Hosting/Cloud Bot',
     '34.91.108.146' => 'Hosting/Cloud Bot',
     '13.69.55.105' => 'Hosting/Cloud Bot',
     '91.107.210.123' => 'Hosting/Cloud Bot',
@@ -13895,9 +13897,7 @@ $bot_detector_blacklist = array(
     '31.13.103.4' => 'Generic Bot',
     '31.13.127.115' => 'Generic Bot',
     '185.213.21.139' => 'Hosting/Cloud Bot',
-    '207.46.13.52' => 'Hosting/Cloud Bot',
     '144.76.32.120' => 'Proxy/VPN Abuse',
-    '144.76.90.206' => 'Hosting/Cloud Bot',
     '34.12.174.53' => 'Hosting/Cloud Bot',
     '34.34.88.237' => 'Hosting/Cloud Bot',
     '31.13.127.8' => 'Generic Bot',
@@ -13928,6 +13928,8 @@ $bot_detector_blacklist = array(
     '54.226.213.62' => 'Hosting/Cloud Bot',
     '13.222.237.74' => 'Hosting/Cloud Bot',
     '103.67.200.108' => 'Hosting/Cloud Bot',
+    '207.46.13.52' => 'Hosting/Cloud Bot',
+    '135.181.140.124' => 'Hosting/Cloud Bot',
     '31.13.103.113' => 'Generic Bot',
     '85.132.60.18' => 'Generic Bot',
     '20.43.120.27' => 'Hosting/Cloud Bot',
@@ -14049,7 +14051,6 @@ $bot_detector_blacklist = array(
     '95.217.144.242' => 'Known Bot (SEO)',
     '31.13.115.9' => 'Generic Bot',
     '188.90.134.20' => 'Generic Bot',
-    '207.46.13.54' => 'Hosting/Cloud Bot',
     '195.2.81.242' => 'Generic Bot',
     '109.140.60.197' => 'Generic Bot',
     '148.51.232.52' => 'Generic Bot',

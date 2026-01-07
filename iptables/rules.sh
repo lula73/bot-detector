@@ -1,7 +1,7 @@
 #!/bin/bash
 # iptables Blacklist - Bot Detector
-# Generated: 2026-01-07T18:04:59.249814Z
-# Total IPs: 14064
+# Generated: 2026-01-07T18:10:45.874043Z
+# Total IPs: 14065
 # Run as root: sudo ./rules.sh
 
 # Create chain if not exists
@@ -104,7 +104,6 @@ iptables -A BOTDETECTOR -s 20.41.85.88 -j DROP
 iptables -A BOTDETECTOR -s 108.130.44.242 -j DROP
 iptables -A BOTDETECTOR -s 13.212.114.38 -j DROP
 iptables -A BOTDETECTOR -s 34.245.13.47 -j DROP
-iptables -A BOTDETECTOR -s 34.34.121.61 -j DROP
 iptables -A BOTDETECTOR -s 178.62.241.4 -j DROP
 iptables -A BOTDETECTOR -s 3.128.33.123 -j DROP
 iptables -A BOTDETECTOR -s 34.253.83.55 -j DROP
@@ -13729,6 +13728,7 @@ iptables -A BOTDETECTOR -s 95.217.144.155 -j DROP
 iptables -A BOTDETECTOR -s 95.217.144.239 -j DROP
 iptables -A BOTDETECTOR -s 40.68.189.181 -j DROP
 iptables -A BOTDETECTOR -s 135.181.112.221 -j DROP
+iptables -A BOTDETECTOR -s 144.76.90.206 -j DROP
 iptables -A BOTDETECTOR -s 34.232.137.97 -j DROP
 iptables -A BOTDETECTOR -s 34.147.51.183 -j DROP
 iptables -A BOTDETECTOR -s 195.26.224.235 -j DROP
@@ -13753,6 +13753,7 @@ iptables -A BOTDETECTOR -s 34.12.142.17 -j DROP
 iptables -A BOTDETECTOR -s 66.249.64.41 -j DROP
 iptables -A BOTDETECTOR -s 31.13.127.9 -j DROP
 iptables -A BOTDETECTOR -s 34.12.48.189 -j DROP
+iptables -A BOTDETECTOR -s 207.46.13.54 -j DROP
 iptables -A BOTDETECTOR -s 34.90.115.108 -j DROP
 iptables -A BOTDETECTOR -s 66.249.64.129 -j DROP
 iptables -A BOTDETECTOR -s 66.249.64.132 -j DROP
@@ -13776,6 +13777,7 @@ iptables -A BOTDETECTOR -s 95.217.145.4 -j DROP
 iptables -A BOTDETECTOR -s 192.178.6.73 -j DROP
 iptables -A BOTDETECTOR -s 91.193.5.182 -j DROP
 iptables -A BOTDETECTOR -s 188.245.171.10 -j DROP
+iptables -A BOTDETECTOR -s 207.46.13.78 -j DROP
 iptables -A BOTDETECTOR -s 34.91.108.146 -j DROP
 iptables -A BOTDETECTOR -s 13.69.55.105 -j DROP
 iptables -A BOTDETECTOR -s 91.107.210.123 -j DROP
@@ -13891,9 +13893,7 @@ iptables -A BOTDETECTOR -s 44.202.124.202 -j DROP
 iptables -A BOTDETECTOR -s 31.13.103.4 -j DROP
 iptables -A BOTDETECTOR -s 31.13.127.115 -j DROP
 iptables -A BOTDETECTOR -s 185.213.21.139 -j DROP
-iptables -A BOTDETECTOR -s 207.46.13.52 -j DROP
 iptables -A BOTDETECTOR -s 144.76.32.120 -j DROP
-iptables -A BOTDETECTOR -s 144.76.90.206 -j DROP
 iptables -A BOTDETECTOR -s 34.12.174.53 -j DROP
 iptables -A BOTDETECTOR -s 34.34.88.237 -j DROP
 iptables -A BOTDETECTOR -s 31.13.127.8 -j DROP
@@ -13924,6 +13924,8 @@ iptables -A BOTDETECTOR -s 128.140.123.160 -j DROP
 iptables -A BOTDETECTOR -s 54.226.213.62 -j DROP
 iptables -A BOTDETECTOR -s 13.222.237.74 -j DROP
 iptables -A BOTDETECTOR -s 103.67.200.108 -j DROP
+iptables -A BOTDETECTOR -s 207.46.13.52 -j DROP
+iptables -A BOTDETECTOR -s 135.181.140.124 -j DROP
 iptables -A BOTDETECTOR -s 31.13.103.113 -j DROP
 iptables -A BOTDETECTOR -s 85.132.60.18 -j DROP
 iptables -A BOTDETECTOR -s 20.43.120.27 -j DROP
@@ -14045,7 +14047,6 @@ iptables -A BOTDETECTOR -s 91.99.122.100 -j DROP
 iptables -A BOTDETECTOR -s 95.217.144.242 -j DROP
 iptables -A BOTDETECTOR -s 31.13.115.9 -j DROP
 iptables -A BOTDETECTOR -s 188.90.134.20 -j DROP
-iptables -A BOTDETECTOR -s 207.46.13.54 -j DROP
 iptables -A BOTDETECTOR -s 195.2.81.242 -j DROP
 iptables -A BOTDETECTOR -s 109.140.60.197 -j DROP
 iptables -A BOTDETECTOR -s 148.51.232.52 -j DROP
