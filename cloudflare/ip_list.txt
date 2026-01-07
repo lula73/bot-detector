@@ -1,5 +1,5 @@
 # Cloudflare IP List - Bot Detector
-# Generated: 2026-01-07T17:39:25.248634Z
+# Generated: 2026-01-07T17:43:25.725199Z
 # Total IPs: 14069
 # Import in Cloudflare Dashboard > Security > WAF > Tools > IP Access Rules
 
