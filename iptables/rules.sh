@@ -1,6 +1,6 @@
 #!/bin/bash
 # iptables Blacklist - Bot Detector
-# Generated: 2026-01-07T18:10:45.874043Z
+# Generated: 2026-01-07T18:12:08.260841Z
 # Total IPs: 14065
 # Run as root: sudo ./rules.sh
 
@@ -13667,6 +13667,7 @@ iptables -A BOTDETECTOR -s 91.98.179.88 -j DROP
 iptables -A BOTDETECTOR -s 34.91.41.83 -j DROP
 iptables -A BOTDETECTOR -s 65.21.35.246 -j DROP
 iptables -A BOTDETECTOR -s 4.197.176.207 -j DROP
+iptables -A BOTDETECTOR -s 34.6.184.158 -j DROP
 iptables -A BOTDETECTOR -s 135.181.137.99 -j DROP
 iptables -A BOTDETECTOR -s 34.13.231.142 -j DROP
 iptables -A BOTDETECTOR -s 34.90.26.49 -j DROP
@@ -13679,7 +13680,6 @@ iptables -A BOTDETECTOR -s 13.74.251.70 -j DROP
 iptables -A BOTDETECTOR -s 144.76.137.119 -j DROP
 iptables -A BOTDETECTOR -s 20.42.220.101 -j DROP
 iptables -A BOTDETECTOR -s 198.44.159.34 -j DROP
-iptables -A BOTDETECTOR -s 34.6.184.158 -j DROP
 iptables -A BOTDETECTOR -s 13.93.125.202 -j DROP
 iptables -A BOTDETECTOR -s 212.104.6.53 -j DROP
 iptables -A BOTDETECTOR -s 172.16.9.1 -j DROP

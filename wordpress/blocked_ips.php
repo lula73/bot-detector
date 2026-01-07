@@ -1,7 +1,7 @@
 <?php
 /**
  * Bot Detector Blacklist for WordPress
- * Generated: 2026-01-07T18:10:45.884008Z
+ * Generated: 2026-01-07T18:12:08.267400Z
  * Total IPs: 14065
  *
  * Usage: Add to your theme's functions.php or create a custom plugin
@@ -13671,6 +13671,7 @@ $bot_detector_blacklist = array(
     '34.91.41.83' => 'Hosting/Cloud Bot',
     '65.21.35.246' => 'Hosting/Cloud Bot',
     '4.197.176.207' => 'Vulnerability Scanner',
+    '34.6.184.158' => 'Generic Bot',
     '135.181.137.99' => 'Hosting/Cloud Bot',
     '34.13.231.142' => 'Hosting/Cloud Bot',
     '34.90.26.49' => 'Hosting/Cloud Bot',
@@ -13683,7 +13684,6 @@ $bot_detector_blacklist = array(
     '144.76.137.119' => 'Hosting/Cloud Bot',
     '20.42.220.101' => 'Vulnerability Scanner',
     '198.44.159.34' => 'Proxy/VPN Abuse',
-    '34.6.184.158' => 'Generic Bot',
     '13.93.125.202' => 'Hosting/Cloud Bot',
     '212.104.6.53' => 'Generic Bot',
     '172.16.9.1' => 'Generic Bot',

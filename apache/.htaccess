@@ -1,5 +1,5 @@
 # Apache IP Blacklist - Bot Detector
-# Generated: 2026-01-07T18:10:45.869067Z
+# Generated: 2026-01-07T18:12:08.256327Z
 # Total IPs: 14065
 # Place in your web root or include in httpd.conf
 
@@ -13662,6 +13662,7 @@
     Require not ip 34.91.41.83
     Require not ip 65.21.35.246
     Require not ip 4.197.176.207
+    Require not ip 34.6.184.158
     Require not ip 135.181.137.99
     Require not ip 34.13.231.142
     Require not ip 34.90.26.49
@@ -13674,7 +13675,6 @@
     Require not ip 144.76.137.119
     Require not ip 20.42.220.101
     Require not ip 198.44.159.34
-    Require not ip 34.6.184.158
     Require not ip 13.93.125.202
     Require not ip 212.104.6.53
     Require not ip 172.16.9.1
