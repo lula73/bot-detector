@@ -1,5 +1,7 @@
 # Bot Detector Public Blacklist
 
+![Bot Detector](images.png)
+
 A curated list of IP addresses identified as bots, scrapers, and malicious actors.
 
 ![Update Frequency](https://img.shields.io/badge/updates-every%203%20hours-blue)
@@ -65,13 +67,13 @@ These are detected through traffic analysis without explicit identification:
 Contains full metadata including score, country, organization, category, and reason.
 
 ```bash
-curl -O https://raw.githubusercontent.com/YOUR_REPO/main/blacklist.json
+curl -O https://raw.githubusercontent.com/lula73/bot-detector/master/blacklist.json
 ```
 
 ### Nginx
 ```bash
 # Download
-curl -O https://raw.githubusercontent.com/YOUR_REPO/main/nginx/deny.conf
+curl -O https://raw.githubusercontent.com/lula73/bot-detector/master/nginx/deny.conf
 
 # Include in your nginx.conf or site config
 include /etc/nginx/deny.conf;
@@ -83,7 +85,7 @@ sudo nginx -t && sudo nginx -s reload
 ### Apache
 ```bash
 # Download
-curl -O https://raw.githubusercontent.com/YOUR_REPO/main/apache/.htaccess
+curl -O https://raw.githubusercontent.com/lula73/bot-detector/master/apache/.htaccess
 
 # Include in your httpd.conf or use directly in web root
 # Apache 2.4+ required
@@ -92,7 +94,7 @@ curl -O https://raw.githubusercontent.com/YOUR_REPO/main/apache/.htaccess
 ### iptables
 ```bash
 # Download and execute
-curl -O https://raw.githubusercontent.com/YOUR_REPO/main/iptables/rules.sh
+curl -O https://raw.githubusercontent.com/lula73/bot-detector/master/iptables/rules.sh
 chmod +x rules.sh
 sudo ./rules.sh
 ```
@@ -126,10 +128,10 @@ frontend web_frontend
 ### Cron Job (Update every 3 hours)
 ```bash
 # Nginx example
-0 */3 * * * curl -s https://raw.githubusercontent.com/YOUR_REPO/main/nginx/deny.conf -o /etc/nginx/deny.conf && nginx -s reload
+0 */3 * * * curl -s https://raw.githubusercontent.com/lula73/bot-detector/master/nginx/deny.conf -o /etc/nginx/deny.conf && nginx -s reload
 
 # iptables example
-0 */3 * * * curl -s https://raw.githubusercontent.com/YOUR_REPO/main/iptables/rules.sh | sudo bash
+0 */3 * * * curl -s https://raw.githubusercontent.com/lula73/bot-detector/master/iptables/rules.sh | sudo bash
 ```
 
 ### systemd Timer
@@ -140,7 +142,7 @@ Description=Update Bot Detector Blacklist
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/curl -s https://raw.githubusercontent.com/YOUR_REPO/main/nginx/deny.conf -o /etc/nginx/deny.conf
+ExecStart=/usr/bin/curl -s https://raw.githubusercontent.com/lula73/bot-detector/master/nginx/deny.conf -o /etc/nginx/deny.conf
 ExecStartPost=/usr/sbin/nginx -s reload
 ```
 
@@ -172,7 +174,7 @@ You can also fetch the JSON directly in your application:
 ```python
 import requests
 
-response = requests.get('https://raw.githubusercontent.com/YOUR_REPO/main/blacklist.json')
+response = requests.get('https://raw.githubusercontent.com/lula73/bot-detector/master/blacklist.json')
 data = response.json()
 
 for entry in data['blacklist']:

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-01-07T17:47:02.456963Z",
-  "total_ips": 14069,
+  "generated_at": "2026-01-07T18:04:59.273587Z",
+  "total_ips": 14064,
   "categories": {
     "Hosting/Cloud Bot": {
-      "count": 11350,
+      "count": 11351,
       "avg_score": 99.8,
       "permanent_count": 3,
       "description": "Automated traffic from cloud/hosting infrastructure"
     },
     "Generic Bot": {
-      "count": 1074,
+      "count": 1071,
       "avg_score": 99.1,
       "permanent_count": 31,
       "description": "Bot behavior not matching specific categories"
@@ -21,7 +21,7 @@
       "description": "IPs probing for security vulnerabilities (.env, wp-admin, etc.)"
     },
     "Proxy/VPN Abuse": {
-      "count": 516,
+      "count": 513,
       "avg_score": 99.5,
       "permanent_count": 0,
       "description": "Traffic from detected proxy/VPN services"
