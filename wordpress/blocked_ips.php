@@ -1,7 +1,7 @@
 <?php
 /**
  * Bot Detector Blacklist for WordPress
- * Generated: 2026-01-09T08:43:25.254387Z
+ * Generated: 2026-01-09T08:50:04.559111Z
  * Total IPs: 14158
  *
  * Usage: Add to your theme's functions.php or create a custom plugin
