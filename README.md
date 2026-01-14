@@ -1,7 +1,7 @@
 # Public Blacklist for malicious bots & scrapers
-# Start to protect your content!
 
-A curated list (+14.000) of IP addresses identified as bots, scrapers, and malicious actors. Updated every day.
+A curated list (+14.000) of IP addresses identified as bots, scrapers, and malicious actors. Updated every day.  
+**Start to protect your content!**
 
 ![Update Frequency](https://img.shields.io/badge/updates-every%203%20hours-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
