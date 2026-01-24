@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-01-19T16:09:30.835425Z",
-  "total_ips": 14752,
+  "generated_at": "2026-01-24T22:20:26.641764Z",
+  "total_ips": 15108,
   "categories": {
     "Hosting/Cloud Bot": {
-      "count": 11914,
+      "count": 12241,
       "avg_score": 99.9,
       "permanent_count": 5,
       "description": "Automated traffic from cloud/hosting infrastructure"
     },
     "Generic Bot": {
-      "count": 1054,
+      "count": 1044,
       "avg_score": 99.0,
       "permanent_count": 28,
       "description": "Bot behavior not matching specific categories"
     },
     "Vulnerability Scanner": {
-      "count": 946,
+      "count": 973,
       "avg_score": 100.0,
       "permanent_count": 7,
       "description": "IPs probing for security vulnerabilities (.env, wp-admin, etc.)"
     },
     "Proxy/VPN Abuse": {
-      "count": 524,
-      "avg_score": 99.4,
+      "count": 536,
+      "avg_score": 99.3,
       "permanent_count": 0,
       "description": "Traffic from detected proxy/VPN services"
     },
