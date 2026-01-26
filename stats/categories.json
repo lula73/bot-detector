@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-26T08:41:44.488516Z",
-  "total_ips": 15164,
+  "generated_at": "2026-01-26T08:44:08.407637Z",
+  "total_ips": 15165,
   "categories": {
     "Hosting/Cloud Bot": {
-      "count": 12306,
+      "count": 12307,
       "avg_score": 99.9,
       "permanent_count": 5,
       "description": "Automated traffic from cloud/hosting infrastructure"
