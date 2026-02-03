@@ -1,5 +1,5 @@
 # HAProxy IP Blacklist - Bot Detector
-# Generated: 2026-02-03T09:48:39.734509Z
+# Generated: 2026-02-03T09:55:00.578369Z
 # Total IPs: 15608
 # Usage in haproxy.cfg:
 #   acl blacklist src -f /path/to/blacklist.list

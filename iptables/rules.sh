@@ -1,6 +1,6 @@
 #!/bin/bash
 # iptables Blacklist - Bot Detector
-# Generated: 2026-02-03T09:48:39.716466Z
+# Generated: 2026-02-03T09:55:00.561621Z
 # Total IPs: 15608
 # Run as root: sudo ./rules.sh
 
