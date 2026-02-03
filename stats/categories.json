@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-01-26T08:44:08.407637Z",
-  "total_ips": 15165,
+  "generated_at": "2026-02-03T09:48:39.747063Z",
+  "total_ips": 15608,
   "categories": {
     "Hosting/Cloud Bot": {
-      "count": 12307,
+      "count": 12685,
       "avg_score": 99.9,
       "permanent_count": 5,
       "description": "Automated traffic from cloud/hosting infrastructure"
     },
     "Generic Bot": {
-      "count": 1036,
-      "avg_score": 99.0,
+      "count": 1051,
+      "avg_score": 99.1,
       "permanent_count": 28,
       "description": "Bot behavior not matching specific categories"
     },
     "Vulnerability Scanner": {
-      "count": 978,
+      "count": 1001,
       "avg_score": 100.0,
       "permanent_count": 7,
       "description": "IPs probing for security vulnerabilities (.env, wp-admin, etc.)"
     },
     "Proxy/VPN Abuse": {
-      "count": 529,
-      "avg_score": 99.4,
+      "count": 559,
+      "avg_score": 99.5,
       "permanent_count": 0,
       "description": "Traffic from detected proxy/VPN services"
     },
@@ -50,17 +50,17 @@
       "permanent_count": 0,
       "description": "Self-identified content scraping bots"
     },
-    "Content Theft": {
-      "count": 6,
-      "avg_score": 99.5,
-      "permanent_count": 0,
-      "description": "Illegal scraping with burst patterns on pagination/archives"
-    },
     "Known Bot (AI Crawler)": {
       "count": 5,
       "avg_score": 100.0,
       "permanent_count": 0,
       "description": "Self-identified AI training/search bots"
+    },
+    "Content Theft": {
+      "count": 3,
+      "avg_score": 99.7,
+      "permanent_count": 0,
+      "description": "Illegal scraping with burst patterns on pagination/archives"
     },
     "Image Scraper": {
       "count": 2,
