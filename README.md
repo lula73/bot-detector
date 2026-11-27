@@ -6,9 +6,9 @@ high-traffic Italian news websites and blocked there.
 
 | | |
 |---|---|
-| Addresses | **229,997** |
+| Addresses | **230,010** |
 | Networks | **1,720** |
-| Last update | 2026-11-27 14:42 UTC |
+| Last update | 2026-11-27 15:35 UTC |
 | Update frequency | once a day |
 
 This is the list we block with ourselves, published as it is. Use it the same
@@ -51,11 +51,11 @@ on them. The count is the number of entries in today's list.
 | Category | Addresses | Meaning |
 |---|---|---|
 | `vulnerability_scan` | 2,459 | Probed for files and endpoints only an attacker asks for: `.env` and other configuration files, `.git/`, database dumps and backups, admin panels, WordPress internals, web shells |
-| `honeypot` | 193,306 | Requested a decoy URL: one that no page links to and no reader reaches |
+| `honeypot` | 193,319 | Requested a decoy URL: one that no page links to and no reader reaches |
 | `user_agent_rotation` | 1,863 | One address presenting itself as many different browsers |
 | `http_tool` | 195 | Scripted HTTP client or headless browser, from a datacenter network |
-| `no_user_agent` | 33 | Requests with no User-Agent at all, from a datacenter network |
-| `datacenter_crawler` | 6,152 | Datacenter address crawling across many of our sites |
+| `no_user_agent` | 32 | Requests with no User-Agent at all, from a datacenter network |
+| `datacenter_crawler` | 6,153 | Datacenter address crawling across many of our sites |
 | `behavior` | 12,256 | No single signal: the overall behaviour scored as a bot (see `score`) |
 | `manual` | 13,733 | Blocked by an operator |
 | `network` | 1,720 | Whole network blocked by an operator |
@@ -67,24 +67,23 @@ score: no single signal, but the sum of how the address moved through the
 sites. `manual` and `network` are decisions taken by a person, and their
 `reason` is never published.
 
-How long an entry stays depends on what the address did and where it is:
-vulnerability scanners stay the longest, addresses on networks that change
-hands quickly the shortest. The day is in `expires`.
+How long an entry stays depends on the category: see
+[How the list is built](#how-the-list-is-built). The day is in `expires`.
 
 Top countries:
 
 | Country | Addresses |
 |---|---|
-| US | 8,099 |
-| SG | 4,505 |
-| NL | 2,304 |
-| IE | 1,534 |
-| FR | 1,349 |
-| CN | 1,276 |
-| DE | 1,227 |
-| CH | 536 |
-| BE | 456 |
-| FI | 430 |
+| US | 88,817 |
+| BR | 27,143 |
+| FR | 8,731 |
+| SG | 7,795 |
+| DE | 6,550 |
+| VN | 6,399 |
+| RU | 5,733 |
+| AR | 5,638 |
+| GB | 4,367 |
+| HK | 3,390 |
 
 You can build a stricter list of your own from the CSV, for instance only
 `vulnerability_scan` and `honeypot`:
@@ -231,15 +230,27 @@ sees an empty list while it updates.
 
 ## How the list is built
 
+The list is produced by **Bot Detector**, proprietary software. Its source code
+is not published, for an obvious reason: a bot that can read the detection
+rules and thresholds can route around them. What was observed for each address
+is in the CSV.
+
+Bot Detector works on large volumes of traffic and looks for patterns over
+different time frames: every hour on the most recent traffic, and once a day on
+the whole day, which is the only way to see the bots that stay slow on purpose.
 Each address that sends enough requests gets a score from 0 to 100, from its
 behaviour (request rhythm, path variety, bursts, missing referers, error rate)
 and from explicit rules (exploit paths, decoy URLs, scripted clients, declared
-bots). Addresses above the threshold are blocked, and leave when they stop or
-when the entry expires. Search engines and other declared, well-behaved
-crawlers are verified and never listed.
+bots). Addresses above the threshold are blocked.
 
-The detection rules and thresholds are not published: a bot that can read them
-can route around them. What was observed for each address is in the CSV.
+Google Search, Facebook and other declared operators are excluded up front: an
+allowlist of their networks is refreshed every night from the ranges they
+publish, and those addresses are never listed.
+
+How long an address stays listed depends on how serious the behaviour was: from
+a few weeks to more than a year. An entry is renewed while the address keeps trying and expires
+when it stops, so the same address can leave the list and come back more than
+once.
 
 ## Reporting a mistake
 

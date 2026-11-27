@@ -1,6 +1,6 @@
 # Bot Detector blocklist — ipset restore file
-# Generated: 2026-11-27 14:42:43 UTC
-# Addresses: 229997  Networks: 1720
+# Generated: 2026-11-27 15:35:39 UTC
+# Addresses: 230010  Networks: 1720
 #
 #   ipset restore -exist < botdetector.ipset
 #   iptables  -I INPUT -m set --match-set botdetector4 src -j DROP    (once)
@@ -16946,6 +16946,7 @@ add botdetector4-new 34.251.233.90
 add botdetector4-new 34.251.236.106
 add botdetector4-new 34.252.26.47
 add botdetector4-new 34.252.39.201
+add botdetector4-new 34.252.108.190
 add botdetector4-new 34.252.119.246
 add botdetector4-new 34.252.145.47
 add botdetector4-new 34.252.152.170
@@ -29165,6 +29166,7 @@ add botdetector4-new 45.70.22.22
 add botdetector4-new 45.70.29.8
 add botdetector4-new 45.70.29.88
 add botdetector4-new 45.70.30.62
+add botdetector4-new 45.70.30.109
 add botdetector4-new 45.70.33.28
 add botdetector4-new 45.70.35.170
 add botdetector4-new 45.70.38.29
@@ -67709,6 +67711,7 @@ add botdetector4-new 78.81.155.122
 add botdetector4-new 78.81.155.158
 add botdetector4-new 78.83.131.108
 add botdetector4-new 78.83.138.213
+add botdetector4-new 78.85.4.77
 add botdetector4-new 78.85.4.100
 add botdetector4-new 78.85.4.200
 add botdetector4-new 78.85.5.92
@@ -89319,6 +89322,7 @@ add botdetector4-new 88.170.248.203
 add botdetector4-new 88.171.33.130
 add botdetector4-new 88.171.33.177
 add botdetector4-new 88.171.47.61
+add botdetector4-new 88.171.61.234
 add botdetector4-new 88.171.73.247
 add botdetector4-new 88.171.76.182
 add botdetector4-new 88.171.230.228
@@ -89363,6 +89367,7 @@ add botdetector4-new 88.174.41.84
 add botdetector4-new 88.174.66.74
 add botdetector4-new 88.174.68.175
 add botdetector4-new 88.174.81.80
+add botdetector4-new 88.174.118.131
 add botdetector4-new 88.174.154.114
 add botdetector4-new 88.174.163.153
 add botdetector4-new 88.174.208.42
@@ -89901,7 +89906,6 @@ add botdetector4-new 89.44.213.49
 add botdetector4-new 89.44.213.118
 add botdetector4-new 89.45.244.192
 add botdetector4-new 89.46.105.179
-add botdetector4-new 89.46.109.73
 add botdetector4-new 89.47.55.124
 add botdetector4-new 89.47.63.165
 add botdetector4-new 89.47.63.209
@@ -100803,6 +100807,7 @@ add botdetector4-new 103.60.161.96
 add botdetector4-new 103.60.170.63
 add botdetector4-new 103.60.170.71
 add botdetector4-new 103.60.170.73
+add botdetector4-new 103.60.170.74
 add botdetector4-new 103.60.170.94
 add botdetector4-new 103.60.170.121
 add botdetector4-new 103.60.170.130
@@ -103264,6 +103269,7 @@ add botdetector4-new 103.148.114.57
 add botdetector4-new 103.148.114.62
 add botdetector4-new 103.148.122.19
 add botdetector4-new 103.148.128.50
+add botdetector4-new 103.148.128.99
 add botdetector4-new 103.148.130.54
 add botdetector4-new 103.148.149.43
 add botdetector4-new 103.148.149.106
@@ -163333,6 +163339,7 @@ add botdetector4-new 177.22.124.167
 add botdetector4-new 177.22.126.48
 add botdetector4-new 177.22.127.246
 add botdetector4-new 177.22.160.34
+add botdetector4-new 177.22.160.120
 add botdetector4-new 177.22.161.42
 add botdetector4-new 177.22.161.82
 add botdetector4-new 177.22.161.110
@@ -178288,6 +178295,7 @@ add botdetector4-new 181.199.150.141
 add botdetector4-new 181.199.150.166
 add botdetector4-new 181.199.152.11
 add botdetector4-new 181.199.152.119
+add botdetector4-new 181.199.153.11
 add botdetector4-new 181.199.153.62
 add botdetector4-new 181.199.153.99
 add botdetector4-new 181.199.153.229
@@ -180123,6 +180131,7 @@ add botdetector4-new 185.9.76.219
 add botdetector4-new 185.9.76.249
 add botdetector4-new 185.9.76.255
 add botdetector4-new 185.9.78.11
+add botdetector4-new 185.9.78.48
 add botdetector4-new 185.9.78.92
 add botdetector4-new 185.9.78.134
 add botdetector4-new 185.9.78.171
@@ -188491,6 +188500,7 @@ add botdetector4-new 187.243.104.11
 add botdetector4-new 187.243.192.205
 add botdetector4-new 187.243.193.181
 add botdetector4-new 187.243.197.193
+add botdetector4-new 187.243.200.113
 add botdetector4-new 187.243.204.242
 add botdetector4-new 187.243.205.85
 add botdetector4-new 187.243.209.191
@@ -200259,6 +200269,7 @@ add botdetector4-new 190.237.1.168
 add botdetector4-new 190.237.1.176
 add botdetector4-new 190.237.8.236
 add botdetector4-new 190.237.15.98
+add botdetector4-new 190.237.24.46
 add botdetector4-new 190.237.25.6
 add botdetector4-new 190.237.26.125
 add botdetector4-new 190.237.30.161
@@ -209191,6 +209202,7 @@ add botdetector4-new 199.180.139.86
 add botdetector4-new 199.182.115.239
 add botdetector4-new 199.187.232.203
 add botdetector4-new 199.192.156.39
+add botdetector4-new 199.192.158.41
 add botdetector4-new 199.201.74.79
 add botdetector4-new 199.203.99.122
 add botdetector4-new 199.233.232.158
@@ -212662,6 +212674,7 @@ add botdetector4-new 201.87.247.51
 add botdetector4-new 201.87.247.85
 add botdetector4-new 201.87.247.214
 add botdetector4-new 201.87.251.62
+add botdetector4-new 201.87.251.66
 add botdetector4-new 201.87.252.44
 add botdetector4-new 201.87.253.16
 add botdetector4-new 201.87.253.29
