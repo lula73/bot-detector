@@ -6,9 +6,9 @@ high-traffic Italian news websites and blocked there.
 
 | | |
 |---|---|
-| Addresses | **230,010** |
+| Addresses | **230,296** |
 | Networks | **1,720** |
-| Last update | 2026-11-27 15:35 UTC |
+| Last update | 2026-11-28 05:01 UTC |
 | Update frequency | once a day |
 
 This is the list we block with ourselves, published as it is. Use it the same
@@ -50,13 +50,13 @@ on them. The count is the number of entries in today's list.
 
 | Category | Addresses | Meaning |
 |---|---|---|
-| `vulnerability_scan` | 2,459 | Probed for files and endpoints only an attacker asks for: `.env` and other configuration files, `.git/`, database dumps and backups, admin panels, WordPress internals, web shells |
-| `honeypot` | 193,319 | Requested a decoy URL: one that no page links to and no reader reaches |
-| `user_agent_rotation` | 1,863 | One address presenting itself as many different browsers |
-| `http_tool` | 195 | Scripted HTTP client or headless browser, from a datacenter network |
+| `vulnerability_scan` | 2,465 | Probed for files and endpoints only an attacker asks for: `.env` and other configuration files, `.git/`, database dumps and backups, admin panels, WordPress internals, web shells |
+| `honeypot` | 193,326 | Requested a decoy URL: one that no page links to and no reader reaches |
+| `user_agent_rotation` | 1,889 | One address presenting itself as many different browsers |
+| `http_tool` | 198 | Scripted HTTP client or headless browser, from a datacenter network |
 | `no_user_agent` | 32 | Requests with no User-Agent at all, from a datacenter network |
-| `datacenter_crawler` | 6,153 | Datacenter address crawling across many of our sites |
-| `behavior` | 12,256 | No single signal: the overall behaviour scored as a bot (see `score`) |
+| `datacenter_crawler` | 6,312 | Datacenter address crawling across many of our sites |
+| `behavior` | 12,341 | No single signal: the overall behaviour scored as a bot (see `score`) |
 | `manual` | 13,733 | Blocked by an operator |
 | `network` | 1,720 | Whole network blocked by an operator |
 | `legacy` | 0 | Carried over from the previous version of this list |
@@ -74,15 +74,15 @@ Top countries:
 
 | Country | Addresses |
 |---|---|
-| US | 88,817 |
+| US | 89,017 |
 | BR | 27,143 |
-| FR | 8,731 |
+| FR | 8,736 |
 | SG | 7,795 |
-| DE | 6,550 |
+| DE | 6,555 |
 | VN | 6,399 |
 | RU | 5,733 |
 | AR | 5,638 |
-| GB | 4,367 |
+| GB | 4,368 |
 | HK | 3,390 |
 
 You can build a stricter list of your own from the CSV, for instance only
